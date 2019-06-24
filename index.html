@@ -1,135 +1,689 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <title>Lisa Barson</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/lisa.css" rel="stylesheet">
+
   </head>
-  <body id="home" style="background:black;">
 
-    <div class="vector">
-        <img src="img/tiles.jpg" alt="Lisa Home">
-        <div class="name"> Lisa Barson </div>
-    </div>
+  <body id="page-top">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Lisa Barson</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#profile">About Me</a>
-            <a class="nav-item nav-link" href="#code-orange">Code Orange<span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#graphic-design">Graphic Design</a>
-            <a class="nav-item nav-link" href="#spiceworks">Spiceworks</a>
-            <a class="nav-item nav-link" href="#holaluz">Holaluz</a>
-            <a class="nav-item nav-link" href="https://www.linkedin.com/in/lisabarson/">Linkedin</a>
-            <a class="nav-item nav-link" href="https://github.com/lisabarson">GitHub</a>
-          </div>
-        </div>
-      </nav>
-
-    <div class="outer-box">
-      <a name="profile">
-      <div class="profile" style="background:#451466;">
-        <div image>
-          <img src="img/profile.jpg" alt="Profile Picture">
-        </div>
-        <div class="text">
-          <div class="text-head"> Hey, I'm Lisa Barson! </div>
-          <div class="text-main"> I study computer science at UT Austin, with an interest in front-end development. I am a Mentor for <a class="links" href="#code-orange">Code Orange</a> and a <a class="links" href="#graphic-design">Graphic Designer</a>. I have worked for <a class="links" href="#spiceworks">Spiceworks</a> as a Software Engineer and <a class="links" href="#holaluz">Holaluz</a> as a Business Development Engineer.
-        </div>
-       </div>
-      </div>
-
-      <a name="code-orange">
-      <div class="code-orange" style="background:#5ec436;">
-        <div image class="code-orange-main-image">
-          <img src="img/codeOrange.jpg" alt="Code Orange">
-        </div>
-        <div class="code-orange-text">
-          <div class="code-orange-head"> Code Orange </div>
-          <div class="code-orange-main"> Code Orange is an organization that aims to level the playing field in tech by starting early. I mentor a girl on the fundamentals of computer science as we build a video game together.
-          </div>
-        </div>
-          <div class="code-orange-image">
-            <img src="img/brooklyn.jpg" alt="Brooklyn">
-          </div>
-      </div>
-
-      <a name="graphic-design">
-      <div class="graphic-design" style="background:#4256d6;">
-        <div class="graphic-design-text">Graphic Design</div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/HarryPotter.png" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/Mark Toland.png" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/Pinterest Party.png" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/ResLife Tailgate.png" alt="Fourth slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Experience</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#graphic">Graphic Design</a>
+              </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Linkedin</a>
+           </li>
+            <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">GitLab</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
 
-      <a name="spiceworks">
-      <div class="spiceworks" style="background:#ed6e2a;">
-        <div image class="spiceworks-image">
-          <img src="img/spiceworks.jpg" alt="Spiceworks">
+    <!-- Header -->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+          <h1 class="lisa-text text-uppercase mb-0">Lisa Barson</h1>
+        <!--  <h2 class="lisa-sub-text font-weight-light mb-0">Programmer &bull; User Experience Designer &bull; Graphic Designer</h2> -->
         </div>
-        <div class="spiceworks-text">
-          <div class="spiceworks-head"> Spiceworks </div>
-          <div class="spiceworks-main"> Spiceworks bring the IT world together by building personal experiences that connect IT pros and marketers with the resources they need to do their jobs. As a front-end software developer, I used A/B testing to improve the website design.
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Experience</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <h1 class="lisa-caption"> IBM Travel AI </h1> 
+                 <!-- <i class="fas fa-search-plus fa-3x"></i> -->
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/travelassistant.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                    <h1 class="lisa-caption"> Code Orange </h1> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/codeorange.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <h1 class="lisa-caption"> Spiceworks </h1> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/spiceworks.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <h1 class="lisa-caption"> Holaluz </h1> 
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/holaluz.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <h1 class="lisa-caption"> Embedded Systems </h1>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/embeddedSystems.png" alt="">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <h1 class="lisa-caption"> Pintos </h1>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/pintos.png" alt="">
+            </a>
           </div>
         </div>
       </div>
+    </section>
 
-      <a name="holaluz">
-      <div class="holaluz" style="background:#e82c6a;">
-        <div image class="holaluz-image">
-          <img src="img/holaluz.jpg" alt="Holaluz">
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="graphic">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary mb-0">Graphic Design</h2>
+          <hr class="star-dark mb-5">
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-1">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                    <h1 class="lisa-caption"> Mark Toland </h1> 
+                   <!-- <i class="fas fa-search-plus fa-3x"></i> -->
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/MT.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-2">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <h1 class="lisa-caption"> Harry Potter Watch Party </h1> 
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/HarryPotter.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-3">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                    <h1 class="lisa-caption"> Pinterest Party </h1> 
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/Pinterest Party.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-4">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <h1 class="lisa-caption"> ResLife Tailgate </h1> 
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/ResLife Tailgate.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-5">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <h1 class="lisa-caption"> Family Bingo Night </h1> 
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/FamilyBingo.png" alt="">
+              </a>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <a class="portfolio-item d-block mx-auto" href="#graphic-modal-6">
+                <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                  <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                      <h1 class="lisa-caption"> Cupid's Crafting </h1> 
+                  </div>
+                </div>
+                <img class="img-fluid" src="img/graphicDesign/Cupids Crafting.png" alt="">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="holaluz-text">
-          <div class="holaluz-head">Holaluz </div>
-          <div class="holaluz-main"> Holaluz is an innovative green energy retailer located in Barcelona, Spain with the vision of helping more customers become self-sufficient producers of solar energy. I managed Holaluz’s customer database for solar panel installations and researched business ventures.
+      </section>
+  
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-white">About</h2>
+        <hr class="star-light mb-5">
+        <div class="about">
+          <img class="profile-img" src="img/lisa_profile.png" alt="">
+            <p class="profile-text lead">Lisa Barson studies computer science at UT Austin, with an interest in design. She is a Mentor for Code Orange and a Graphic Designer. She has worked for Spiceworks as a Software Engineer and Holaluz as a Business Development Engineer. This summer, she will be working with Microsoft as a Security Program Manager.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">
+          <!--  <h4 class="text-uppercase mb-4">Quote</h4> -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">IBM Travel AI</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Under IBM mentorship, our team set out to design a way to utilize natural language 
+                processing and artificial intelligence to improve the travel experience, like a Jarvis for when you are on the go.  
+                We iterated through the design process as we did user interviews, scoped down the problem, defined personas, prototyped our 
+                design, and presented our final solution to IBM executives. 
+              </p>
+              <img class="col-lg-8 img-fluid-lisa mb-5" src="img/portfolio/travelassistant.png" alt="">
+              <h3 class="text-secondary mb-0">Interviews</h3>
+              <p class="lisa-subheading">Through the interview process, our team was able to get a better understanding on particular pain points
+                that our user was facing. </p>
+              <p class="mb-5">We started the interview process by getting the thoughts of a wide variety of users: college 
+                students, travel agents, business travelers. However, we eventually narrowed in on picking the corporate traveler as our 
+                main user as we saw them as an extreme user with some unique pain points. For example, corporate travelers default to 
+                known chains or room service instead of trying the local places, they deal with last minute changes, and they often meet 
+                with people that they would like to impress. 
+              </p>
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/map.png">
+              <hr class="lisa-line mb-3">
+
+              <h3 class="text-secondary mb-0">Personas</h3>
+              <p class="lisa-subheading">After picking the type of user that we wanted to focus on, we created two personas.</p>
+              <p class="mb-5">Hotel Howard is in his early 40s and travels for over 75% of his billable hours, earning him a platinum status on American 
+                  Airlines. His major pain points are that he quickly just falls into routines and is not connected to the cities that he visits. 
+                  Exploration Ellie is in her late 20s and travels once a month for work. She is always looking to explore the cities that she visits, 
+                  but she struggles as all the information she needs is not consolidated in one place and it is hard to find recommendations personalized 
+                  to her. 
+              </p>
+
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ellie_howard.png">
+              <hr class="lisa-line mb-3">
+
+              <h3 class="text-secondary mb-0">Prototypes</h3>
+              <p class="lisa-subheading">After understanding the needs of our users, we came up with our first prototype. </p>
+              <p class="mb-5">In our first attempt at a prototype, 
+                  we tried to included all the solutions that we could think of. This is what our user input and output for our prototype looked like:
+              </p>
+
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/concept1.jpg">    
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/concept 2.png">   
+              <hr class="lisa-line mb-3">        
+
+              <h3 class="text-secondary mb-0">Introducing the Travel Genie!</h3>
+              <p class="lisa-subheading">However, we quickly realized that it is best to prototype around a feature that is feasible and effective. Here is our final 
+                prototype, the Travel Genie!</p>
+              <p class="mb-5">The Travel Genie utilizes IBM Watson’s natural language processor as well as connected data from other platforms and accounts 
+                in order to quickly and effectively help you make the best decision for what to do next. The user must first answer questions about their hometown 
+                preferences, giving the Genie hints as to the user’s personality as well as determine which establishments are most liked by locals when other users 
+                come into town. Then, the user may prompt the Genie with questions like: “Where can I grab coffee on the way to my meeting?”, or the Genie may alert 
+                the user when it spots a place nearby, like: “You’re passing a great Polish deli nearby that [another corporate traveler] has reviewed on a previous 
+                trip. Would you like to make a stop?” Our intuitive UI is built in IBM’s Carbon Design language. 
+              </p>
+
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibm1.png"> 
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibm2.png"> 
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibm3.png"> 
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibm4.png"> 
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibm5.png"> 
+              <hr class="lisa-line mb-3">
+
+              <h3 class="text-secondary mb-0">Reflection</h3>
+              <p class="lisa-subheading">Through the design process, I came to really value the input that users gave to our team. </p>
+              <p class="mb-5">We realized that sometimes you design 
+                for a user that is completely different than yourself, so you need to approach the problem from their perspective. I also enjoyed creating personas 
+                that helped us imagine scenarios in which our product would be used. It was great working with IBM and creating the Travel Genie. 
+              </p>
+              <img class="img-fluid-lisa mb-5" src="img/portfolio/ibmgroup.jpeg"> 
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Code Orange</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Code Orange is an organization that aims to level the playing field in tech by starting early in underprivileged communities. 
+                I mentor a girl on the fundamentals of computer science as we build video games together.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange.png" alt="">
+
+              <h3 class="text-secondary mb-0">Coding on Fridays</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">Each Friday during the semester, I would meet up with my mentee and we would incrementally build our game through MIT's Scratch.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange1.jpg" alt="">
+
+              <h3 class="text-secondary mb-0">Jungle Jump</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">During our first semester together, I taught her about the how fun it can be to program as we built a jungle run game using while loops. 
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/junglejump.png" alt="">
+
+              <h3 class="text-secondary mb-0">Maze Runner</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5"> During our second semester together, she advanced to learning more code through code.org. We also built a Maze Runner game.
+                After we finished working on the game, she presented it to her classmates and received a cerfticate for her work. I have really enjoyed working with
+                her as she discovers the awesome power that computer science brings!
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange2.jpeg" alt="">              
+              
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Spiceworks</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">During the summer of 2018, I interned at Spiceworks as a Software Engineer. Spiceworks is a company based in Austin that brings the IT world 
+                together by building personal experiences that connects IT pros and marketers with the resources they need to do their jobs.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/spiceworks.png" alt="">
+
+              <h3 class="text-secondary mb-0">Growth Squad</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">I was placed on the Growth Squad, 
+              which focused on improving user engagement on their website. I used A/B testing through Google Optimize to create experiments of different website designs and 
+              then tested to see how users responded. I worked with a UX designer to design the new layouts through InVision. Then, I would code the changes using HTML, CSS, 
+              and JavaScript. If an experiment was successful, the design and code was pushed to production. </p>
+              
+              <img class="img-fluid mb-5" src="img/portfolio/spiceworks.jpeg" alt="">
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Holaluz</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Code Orange is an organization that aims to level the playing field in tech by starting early in underprivileged communities. 
+                I mentor a girl on the fundamentals of computer science as we build video games together.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/holaluz.png" alt="">
+
+              <h3 class="text-secondary mb-0">Coding on Fridays</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">Each Friday during the semester, I would meet up with my mentee and we would incrementally build our game through MIT's Scratch.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange1.jpg" alt="">
+
+              <h3 class="text-secondary mb-0">Jungle Jump</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">During our first semester together, I taught her about the how fun it can be to program as we built a jungle run game using while loops. 
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/junglejump.png" alt="">
+
+              <h3 class="text-secondary mb-0">Maze Runner</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5"> During our second semester together, she advanced to learning more code through code.org. We also built a Maze Runner game.
+                After we finished working on the game, she presented it to her classmates and received a cerfticate for her work. I have really enjoyed working with
+                her as she discovers the awesome power that computer science brings!
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange2.jpeg" alt="">              
+              
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Embedded Systems</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Code Orange is an organization that aims to level the playing field in tech by starting early in underprivileged communities. 
+                I mentor a girl on the fundamentals of computer science as we build video games together.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/embeddedSystems.png" alt="">
+
+              <h3 class="text-secondary mb-0">Coding on Fridays</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">Each Friday during the semester, I would meet up with my mentee and we would incrementally build our game through MIT's Scratch.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange1.jpg" alt="">
+
+              <h3 class="text-secondary mb-0">Jungle Jump</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">During our first semester together, I taught her about the how fun it can be to program as we built a jungle run game using while loops. 
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/junglejump.png" alt="">
+
+              <h3 class="text-secondary mb-0">Maze Runner</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5"> During our second semester together, she advanced to learning more code through code.org. We also built a Maze Runner game.
+                After we finished working on the game, she presented it to her classmates and received a cerfticate for her work. I have really enjoyed working with
+                her as she discovers the awesome power that computer science brings!
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange2.jpeg" alt="">              
+              
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Pintos</h2>
+              <hr class="star-dark mb-5">
+              <p class="mb-5">Code Orange is an organization that aims to level the playing field in tech by starting early in underprivileged communities. 
+                I mentor a girl on the fundamentals of computer science as we build video games together.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/pintos.png" alt="">
+
+              <h3 class="text-secondary mb-0">Coding on Fridays</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">Each Friday during the semester, I would meet up with my mentee and we would incrementally build our game through MIT's Scratch.
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange1.jpg" alt="">
+
+              <h3 class="text-secondary mb-0">Jungle Jump</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5">During our first semester together, I taught her about the how fun it can be to program as we built a jungle run game using while loops. 
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/junglejump.png" alt="">
+
+              <h3 class="text-secondary mb-0">Maze Runner</h3>
+              <hr class="lisa-line mb-3">
+              <p class="mb-5"> During our second semester together, she advanced to learning more code through code.org. We also built a Maze Runner game.
+                After we finished working on the game, she presented it to her classmates and received a cerfticate for her work. I have really enjoyed working with
+                her as she discovers the awesome power that computer science brings!
+              </p>
+              <img class="img-fluid mb-5" src="img/portfolio/codeorange2.jpeg" alt="">              
+              
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Graphic Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-1">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Mark Toland</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/Mark Toland.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!-- Graphic Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-2">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Harry Potter Watch Party</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/HarryPotter.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Graphic Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-3">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Pinterest Party</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/Pinterest Party.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-4">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">ResLife Tailgate</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/ResLife Tailgate.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-5">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Family Bingo Night</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/Family Bingo Night-2.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphic Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="graphic-modal-6">
+        <div class="portfolio-modal-dialog bg-white">
+          <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+            <i class="fa fa-3x fa-times"></i>
+          </a>
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2 class="text-secondary text-uppercase mb-0">Cupid's Crafting</h2>
+                <hr class="star-dark mb-5">
+                <img class="img-fluid mb-5" src="img/graphicDesign/Cupids Crafting.png" alt="">
+                <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                  <i class="fa fa-close"></i>
+                  Close Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
 
   </body>
+
 </html>
