@@ -1,0 +1,66 @@
+.lisa-profile {
+    max-width: 20%;
+    height: auto;
+}
+
+.about {
+    display: inline-block;
+}
+
+.profile-img {
+    position: absolute;
+    width: 200px;
+    margin-top: -50px;
+}
+
+.profile-text {
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 600px) {
+    .lisa-profile {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+header {
+    background-image: url("../img/geo.jpg");
+}
+
+.lisa-text {
+    text-shadow: 8px 8px 8px #000000;
+}
+
+.lisa-sub-text {
+    text-shadow: 4px 4px 4px #000000;
+}
+
+hr.lisa-line {
+    max-width: 20rem;
+    padding: 0;
+    text-align: center;
+    border: none;
+    border-top: solid 0.15rem;
+    border-color: #d3dae5;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.img-fluid-lisa  {
+    max-width: 100%;
+    margin-bottom: 30px!important;
+}
+
+.img-fluid-lisa-concept  {
+    max-width: 45%;
+}
+
+.lisa-subheading {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #7abcc1;
+    font-size: 28px;
+    font-style: italic;
+    font-family: serif;
+}
